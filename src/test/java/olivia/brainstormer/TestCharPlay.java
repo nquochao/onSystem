@@ -13,7 +13,7 @@ public class TestCharPlay {
 		System.out.println(name);
 		System.out.println(reverse(name));
 		printOdds();
-		readFile("./src/test/java/olivia/brainstormer/Test2.java");
+		readFile("./src/test/java/olivia/brainstormer/"+TestCharPlay.class.getSimpleName()+".java");
 		System.out.println(formatRGB(10,220,128));
 	    for ( int i = 0; i < 10; i++ ) {
             System.out.print ( fib(i) + ", " );
